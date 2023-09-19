@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Blaisemart Portfolio written with vanilla JavaScript, CSS and HTML5" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Blaisemart Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/img/blaise_edited.jpg"
+              alt="Blaise Ejikeme Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Blaise Ejikeme</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+            
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact 
+
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hello, My name is Blaise Ejikeme</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            I am a passionate fullstack developer based in Lagos, Nigeria.
+             I have a solid background in backend and frontend web development such as 
+             <strong>Django</strong>,
+             <strong>ReactJS</strong>, <strong>NodeJS</strong>, and 
+             <strong>SASS/Bootstrap</strong>, and I love building high perfomance, 
+             secured database driven website application.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">See my projects
+            <i class=" arrow-right fa-sharp fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/ejikeme-blaise-2504111b1/"
+           class="home-hero__social-icon-link">
+            <img
+              src="./assets/img/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/Blaise-93" class="home-hero__social-icon-link">
+            <img
+              src="./assets/img/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+          
+        </div>
+        <div class="home-hero__social">
+          <a href="https://twitter.com/Blaisemat6" class="home-hero__social-icon-link">
+            <img
+              src="./assets/img/twitter-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="#"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/img/insta-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    
+    
+        <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">My Projects</span>
+          <span class="heading-sec__sub">
+            All my projects include links to the code and live version.
+             Kindly click the button to learn more about each one.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/larger-device-flower of grace.png"
+                alt="Coulture Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Coulture</h3>
+              <p class="projects__row-content-desc">
+                Coulture is a project that helps users live their live to fullness via staying current to 
+                latest development in movie industry, bitcoin market capitalization and great wallpaper. 
+                The website is highly responsive and unit testing was written with Jasmine Framework. 
+                This site interacts with multiple APIs using async JS.
+                Tech stacks used: Javascript, HTML, CSS, Figma, Axios GIT and GITHUB
+               
+              </p>
+              <a
+                href="./coulture.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more <i class=" arrow-right fa-sharp fa-solid fa-arrow-right"></i>
+              </a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                 src="./assets/img/quiz.jpg"
+            
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Quiz App</h3>
+              <p class="projects__row-content-desc">
+                Quizzical is a quiz project that I created for relaxation and recreational 
+                activities for users who enjoy trivial game in order to excite and boost their 
+                knowledge. Tech stack used includes ReactJS, Axios, HTML and CSS.
+              </p>
+              <a
+                href="./quizzical.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more
+                <i class=" arrow-right fa-sharp fa-solid fa-arrow-right"></i>
+            </a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/cars/home-page-of-the-site.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">KesterAutos Ecommerce Website</h3>
+              <p class="projects__row-content-desc">
+                About
+                KesterAutos is a live medium-scale ecommerce website that handles user registration, authenticate them for 
+                each product order the user made, allow them to make payment via Paystack or book inspection date in real time. 
+                It is perfectly designed in with nice UI/UX. It also leverages on  Django inbuilt admin interface to handle admin related database manipulation with PostgresQL 
+                Built with Python/Django, JavaScript, PostgreSQL, Bootstrap, SCSS, CSS and HTML, Unittest (for unittesting and integration testing).
+                Other tools used are Sendgrid for email marketing, Git/Github, Railway for web hosting at the moment, we are planningon moving to
+                DigitalOcean soon. 
+              </p>
+              <a
+                href="./kester-autos.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more
+                <i class=" arrow-right fa-sharp fa-solid fa-arrow-right"></i>
+              </a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            <p>I'm a fullstack developer that lives in Lagos, Nigeria. 
+              I love building database-driven apps that solve real-world problems, and that are delightful to use.
+               My specialities include Django, NodeJS, ExpressJS, React JS, Bootstrap CSS, and I am so passionate in
+               writing test-driven applications using Unittesting, Jasmine and Jest most times.
+            </p>
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Prior to diving into software programming to become one of the vocal voice of health personnel into tech, I have
+                served potentially in rendering patients' therapeutic health problems they have as a licensed pharmacist. I got 
+                my first degree in pharmacy at University of Nigeria Nsukka, 2017 before my passion to software engineering begins based on ways
+               to improve health delivery directly to clients at ease, that's where I come in. If I am not coding I am 
+                solving health related issues and building cordial relationship with my team. I love travelling, reading and watching football.
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact
+              <i class=" arrow-right fa-sharp fa-solid fa-arrow-right"></i>
+            </a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">Django</div>
+              <div class="skills__skill">FASTAPI</div>
+              <div class="skills__skill">NodeJS</div>
+              <div class="skills__skill">MySQL</div>
+              <div class="skills__skill">PostgresQL</div>
+              <div class="skills__skill">Firebase</div>
+              <div class="skills__skill">Mongodb</div>
+              <div class="skills__skill">Git</div>
+              <div class="skills__skill">Github</div>
+              <div class="skills__skill">Figma</div>
+              <div class="skills__skill">Tailwind CSS</div>
+              <div class="skills__skill">Jasmine</div>
+              <div class="skills__skill">Unittesting</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+
+    
+    
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Kindly reach out if you have any questions! I would be happy to jump on a video call to brainstorm projects and ideas . 
+            Send me an email at ejikemeblaise08@gmail.com or call me directly at +234-816-565-2339
+          </span>
+        </h2>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>My Social Accounts</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ejikeme-blaise-2504111b1/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/Blaise-93">
+                <img
+                  class="main-footer__icon social-hover-color"
+                  src="./assets/img/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://twitter.com/Blaisemat6">
+                <img
+                  class="main-footer__icon social-hover-color"
+                  src="./assets/img/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/ejikemeblaise/">
+                <img
+                  class="main-footer__icon  social-hover-color main-footer__icon--mr-none"
+                  src="./assets/img/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Blaise Ejikeme</h4>
+            <p class="main-footer__short-desc ">
+                Thanks a lot for checking on my portfolio, hoping to here from you soonest.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+            <div>
+              &copy;<a href="https://github.com/Blaise-93">Blaisemart</a>, All Right Reserved,
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+        </div>
+      </div>
+    </footer>
+    
+    <script
+    src="https://kit.fontawesome.com/0eaf613524.js"
+    crossorigin="anonymous"
+  ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
