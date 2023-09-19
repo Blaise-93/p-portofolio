@@ -1,4 +1,4 @@
-Personal portfolio:
+# Personal portfolio:
 
 Blaisemart portfolio is a project I created to simply help me hold all my important works which I have created over the years as a Fullstack developer who is always eager to learn and work with team to deliver projects with deadline. I can actually work independently and do my things with little or no support, but who does not like someone to support his/her work? So, yeah, I am a team player and ready to leverage on this unending software environment to become an expert developer someday. 
 
@@ -9,5 +9,5 @@ Frameworks which helps me fasten up my works which I am very good at are ReactJs
 This responsive designed portfolio is written with HTML5, CSS, SCSS and JavaScript
 
 
-Thank you for checking out. My email contact is <ejikemeblaise08@gmail.com>!
+Thank you for checking out. Kindly contact me via my email, <ejikemeblaise08@gmail.com> or via Linkedin, https://www.linkedin.com/in/ejikeme-blaise-2504111b1/!
 
