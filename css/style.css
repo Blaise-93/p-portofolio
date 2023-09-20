@@ -694,10 +694,11 @@ textarea {
     top: 50%;
     width: auto;
     margin-top: -22px;
-    padding: 16px;
-    color: white;
+    padding: 1em;
+    font-size: 1.2em;
+    color: rgb(164, 141, 11);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.1rem;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -706,7 +707,17 @@ textarea {
   /* Position the "next button" to the right */
   .next {
     right: 0;
+
+    left: 50%;
     border-radius: 3px 0 0 3px;
+    
+  }
+
+  .next-prev {
+    display: flex;
+    flex-direction: center;
+    align-items:center;
+    padding-left: 3.5rem;
   }
   
   /* On hover, add a black background color with a little bit see-through */
@@ -717,20 +728,20 @@ textarea {
   /* Caption text */
   .display-text {
     color: steelblue;
-    font-size: 35px;
+    font-size: 1.2em;
     font-weight:bolder;
     padding: 8px 12px;
     margin-top: 15px;
-    position: absolute;
     bottom: 8px;
-    width: 100%;
     text-align: center;
+    font-weight: bold;
   }
 
   .img {
     width: 100%;
     height: 100%;
   }
+
   
   /* Number text (1/3 etc) */
   .num-display {
@@ -773,6 +784,6 @@ textarea {
   @media (max-width:768px){
     
   .slide-display-container .img{
-      height:306px;
+      height:206px;
    }
   }
