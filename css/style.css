@@ -773,6 +773,12 @@ textarea {
   .active, .box:hover {
     background-color: gray;
   }
+
+  .autos {
+    color: rgb(249, 249, 35);
+    font-size: 1.1em;
+    font-weight: bold;
+  }
   
   /* Fading animation */
   .fading {
