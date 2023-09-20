@@ -38,9 +38,7 @@ headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
 
-
 // CAROUSEL JS
-
 let slideCount = 1;
 
 slideDisplay(slideCount);
